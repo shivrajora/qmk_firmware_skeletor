@@ -1,11 +1,12 @@
 {
     "keyboard_name": "Skeletyl",
-    "diode_direction": "ROW2COL",
+    "diode_direction": "COL2ROW",
     "features": {
         "bootmagic": true,
         "extrakey": true,
         "mousekey": true,
-        "rgb_matrix": true
+        "nkro": true,
+        "rgb_matrix": false
     },
     "rgb_matrix": {
         "driver": "ws2812",
@@ -95,8 +96,8 @@
                 {"matrix": [6, 0], "x": 15, "y": 2},
                 {"matrix": [3, 2], "x": 4, "y": 3},
                 {"matrix": [3, 3], "x": 5, "y": 3},
-                {"matrix": [3, 0], "x": 6, "y": 3},
-                {"matrix": [7, 0], "x": 9, "y": 3},
+                {"matrix": [3, 4], "x": 6, "y": 3},
+                {"matrix": [7, 4], "x": 9, "y": 3},
                 {"matrix": [7, 3], "x": 10, "y": 3},
                 {"matrix": [7, 2], "x": 11, "y": 3}
             ]

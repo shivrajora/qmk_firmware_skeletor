@@ -1,0 +1,16 @@
+{
+    "processor": "RP2040",
+    "bootloader": "rp2040",
+    "matrix_pins": {
+        "cols": ["GP28", "GP20", "GP6", "GP7", "GP8"],
+        "rows": ["GP26", "GP5", "GP4", "GP9"]
+    },
+    "split": {
+        "handedness": {
+            "pin": "GP15"
+        },
+        "serial": {
+            "driver": "vendor"
+        }
+    }
+}
